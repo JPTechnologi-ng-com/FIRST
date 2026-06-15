@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="./images/1774821880830.png" alt="Clement Stack logo" />
+        <span class="brand-text">
+          <span class="brand-title">Clement Stack</span>
+          <span class="brand-subtitle">Web Developer</span>
+        </span>
+      </a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html" class="button button-outline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container section">
+    <div class="section-heading">
+      <h1>Contact</h1>
+      <p>Reach out via form, email, or phone. I’m ready to help build your portfolio, blog, or product page.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="card contact-card">
+        <h2>Get in touch</h2>
+        <p>Email: <a href="mailto:hello@example.com">hello@example.com</a></p>
+        <p>Phone: <a href="tel:+1234567890"> (+234) 8051-714842</a></p>
+        <p>Or use the form to send a message directly.</p>
+      </div>
+
+      <form id="contact-form" class="card contact-form">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" placeholder="Your name" required />
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="Your email" required />
+
+        <label for="subject">Subject</label>
+        <input id="subject" name="subject" type="text" placeholder="What is this about?" />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" placeholder="Write your message here" required></textarea>
+
+        <button type="submit" class="button">Send message</button>
+        <p id="contact-status" class="status-message"></p>
+      </form>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>© 2026 Clement Stack. Portfolio & blog.</p>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

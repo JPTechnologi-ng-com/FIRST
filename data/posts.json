@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Designing a Responsive Portfolio",
+    "summary": "How to build a mobile-first portfolio site with clean layout and strong visual hierarchy.",
+    "category": "Design",
+    "tags": ["responsive", "portfolio", "UI"],
+    "date": "2026-06-10"
+  },
+  {
+    "id": 2,
+    "title": "Writing Blog Content That Converts",
+    "summary": "Best practices for blog post structure, calls to action, and engagement on your personal site.",
+    "category": "Content",
+    "tags": ["blog", "copywriting", "CTA"],
+    "date": "2026-06-05"
+  },
+  {
+    "id": 3,
+    "title": "Simple Node Backend for Static Sites",
+    "summary": "Using Express to serve pages, provide a blog API, and collect contact form submissions.",
+    "category": "Development",
+    "tags": ["node", "express", "backend"],
+    "date": "2026-06-01"
+  }
+]
